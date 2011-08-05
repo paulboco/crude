@@ -1,4 +1,4 @@
-#Crude CRUD generator  
+#Crude CRUD generator
 
 Crude is a GUI CRUD generator in wizard form. Unlike Oil, it is limited to using existing tables.
 Generated files are available via a zip file download.
