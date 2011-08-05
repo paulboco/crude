@@ -10,12 +10,10 @@
  * @link       http://fuelphp.com
  */
 
-
-
 return array(
 	/**
 	 * global configuration
-	*/
+	 */
 
 	// set it to false to prevent the static session from auto-initializing, know that it might make your session
 	// expire sooner because it's not updated when it's not used. note that auto-initializing always loads the default driver
@@ -92,5 +90,3 @@ return array(
 		'database'			=> 'default'				// name of the redis database to use (as configured in config/db.php)
 						)
 );
-
-/* End of file config/session.php */

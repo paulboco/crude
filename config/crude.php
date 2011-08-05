@@ -2,20 +2,34 @@
 
 /**
  * Crude configuration file
- *
- * @package     Fuel
- * @version     1.0
- * @author      Fuel Development Team
- * @license     MIT License
- * @copyright   2011 Fuel Development Team
- * @link        http://fuelphp.com
  */
 
 return array (
 
+	/**
+	 * default_stencil - The stencil selected in action tables.
+	 *
+	 * This stencil must exist in the stencils direcotyr.
+	 */
 	'default_stencil'  => 'default_orm',
+
+	/**
+	 * crudzip_path - The path to where the zip file is created.
+	 *
+	 * This directory must exist and be writable by the webserver.
+	 */
 	'crudzip_path'     => TMPPATH.'crude'.DS,
 
+	/**
+	 * input_options - The options available for data type selects in action input.
+	 *
+	 * This is not complete. See file COREPATH/classes/database/mysql/connection.php for a complete list.
+	 *
+	 * The array is constructed as such:
+	 *     'datatype' = array(
+	 *         'input_type' => 'label',
+	 *     )
+	 */
 	'input_options' => array(
 		'int' => array (
 			'text'   => 'text',
@@ -46,7 +60,7 @@ return array (
 			'radio'  => 'radio',
 		),
 		'date' => array(
-			'select 3' => 'select 3',
+			'select' => 'select',
 			'text'     => 'text',
 		),
 		'timestamp' => array(
@@ -54,5 +68,3 @@ return array (
 	),
 
 );
-
-/* End of file temp.php */
