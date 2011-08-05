@@ -9,13 +9,16 @@ NOTE! Crude is for development environments only.
 
  * Copy the 'crude' directory to your APPPATH/modules directory
  * Enable module paths in APPPATH/config/config.php
- * Configure the database for Crude to use in APPPATH/config/db.php
+ * Configure the database in APPPATH/config/db.php
 
 # Usage
 
 Depeneding on your setup, go to...
-http://yourhost/index.php/crude
+`http://yourhost/index.php/crude`
 or
-http://yourhost/crude
+`http://yourhost/crude`
 and follow the on-screen instructions.
 
+# Configuration
+
+to come...
