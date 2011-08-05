@@ -10,7 +10,7 @@
 </p>
 
 <p style="font-size:small;margin:0 0 20px 75px;line-height:1.1em;">
-	Links are disabled when a table name doesn't contain the configured table prefix ,or they have been omitted in the stencil configuration file.
+	Links are disabled when a table name doesn't contain the configured table prefix, or they have been omitted in the stencil configuration file.
 </p>
 <?php endif; ?>
 
