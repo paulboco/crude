@@ -39,10 +39,10 @@ class Controller_Base extends \Controller {
 		$this->template = \View::factory('template');
 
 		// init CRUD controller
-		if (\Uri::segment(1) == 'crude')
+		if (\Request::active()->controller == 'crud')
 		{
 			// redirect to crud/error if errors were found
-			if ( ! Init::all() and \Uri::segment(3) != 'error')
+			if ( ! Init::all() and \Request::active()->action != 'error')
 			{
 				\Response::redirect('crude/crud/error');
 			}
