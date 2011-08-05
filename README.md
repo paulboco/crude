@@ -8,7 +8,8 @@ NOTE! Crude is for development environments only.
 # Install
 
  * Copy the 'crude' directory to your APPPATH/modules directory
- * Enable module paths in APPPATH/config/config.php
+ * APPPATH/config/config.php - Enable the default module_paths
+ * APPPATH/config/config.php - Enable orm in always_load.packages
  * Configure the database in APPPATH/config/db.php
 
 # Usage
