@@ -1,0 +1,19 @@
+#main_nav {
+	position:absolute;
+	top:0;
+	right:0;
+	padding-bottom:2px;
+	float:right;
+}
+
+.nav {
+	float:left;
+}
+
+.nav span {
+	color:#999;
+}
+
+.nav span.inactive, .nav a.current {
+	color:#000000;
+}

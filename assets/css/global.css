@@ -1,0 +1,183 @@
+html {
+	overflow-y:scroll;
+}
+
+body {
+	margin-top:20px;
+	font-family:Helvetica, Arial, sans-serif;
+	background-color:#FAFAFA;
+}
+
+p {
+	display:block;
+	margin:10px 0;
+	line-height:20px;
+}
+
+blockquote {
+	outline: 5px solid blue;
+	margin:10px 0;
+	display:block;
+}
+
+a {
+	color:#740;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#057;
+}
+
+ul {
+	margin-left:20px;
+}
+
+li {
+	line-height:20px;
+}
+
+code {
+	font-family:monospace;
+	display:inline;
+	padding:0px;
+}
+
+label {
+	margin:0 10px 0 0;
+	font-weight:bold;
+}
+
+form {
+	display:inline;
+}
+
+#wrapper {
+	width:950px;
+	margin:0 auto;
+	padding:10px;
+}
+
+#content {
+ float: left;
+ width: 700px;
+ display: inline;
+}
+
+#rightcolumn {
+ width: 250px;
+ float: right;
+}
+
+#footer {
+	margin-top:40px;
+	width:100%;
+	text-align:center;
+	font-size:x-small;
+}
+
+.float_left {
+	float:left;
+}
+
+.float_right {
+	float:right;
+}
+
+.block_clear {
+	clear:both;
+	margin:20px 0;
+}
+
+.section_seperator {
+	margin:4px 0 4px;
+	clear:both;
+	height:1px;
+}
+
+.error {
+	color:#C00;
+}
+
+.notice {
+	color:#000;
+}
+
+.center {
+	text-align:center;
+}
+
+.width_auto {
+	width:auto;
+}
+
+span.show_hide {
+	background-color:#EEE;
+	color:#740;
+	width:15px;
+	text-align:center;
+	display:inline-block;
+	padding:0px;
+	border:1px outset #999;
+	cursor:pointer;
+}
+
+span.select_all {
+	color:#740;
+	font-size:small;
+	padding:3px;
+	cursor:pointer;
+	outline:solid 1px #CCC;
+}
+
+.code_block {
+	border:solid 1px #CCC;
+	display:none;
+	margin:0;
+	margin-top:8px;
+	background-color:#FFFFFF;
+	overflow:auto;
+}
+
+div.code code {
+	width:auto;
+	display:block;
+	padding:20px 20px 40px;
+	white-space:nowrap;
+	line-height:1.3em;
+}
+
+div.status_table {
+	float:right;
+	text-align:left;
+}
+
+div.status_table table {
+	border-collapse: collapse;
+	font-size:small;
+}
+
+.status_table td, .status_table th {
+	border:1px solid #999;
+	padding:5px 7px;
+}
+
+.status_table td.key {
+	font-weight:bold;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.disabled_text {
+	color:silver;
+}
+
+.notice_text {
+	color:crimson;
+}
+
+#temp {
+	display:none;
+}

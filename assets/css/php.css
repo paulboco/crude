@@ -1,0 +1,19 @@
+#phpinfo { text-align:left; margin:40px 0;}
+#phpinfo table { margin-left:0; margin-right:auto; text-align:left;}
+#phpinfo th { text-align: center !important; }
+#phpinfo h2 a {color:#EDC; text-decoration: none;}
+pre {margin: 0px; font-family:Helvetica, Arial, sans-serif;}
+a:hover {text-decoration: underline;}
+table {border-collapse: collapse;}
+td, th {padding:3px 7px; border: 1px solid #000000; font-size: small; vertical-align: baseline;}
+tr.h th {text-shadow:none;}
+h1 {color:#EDC; font-size: x-large;}
+tr {background-color:#ccccff; color:#000;}
+h2 {border:none;}
+.p {text-align: left;}
+.e {background-color: #ccccff; font-weight: bold; color: #000000;}
+.h {background-color: #9999cc; font-weight: bold; color: #000000;}
+.v {background-color: #cccccc; color: #000000;}
+.vr {background-color: #cccccc; text-align: right; color: #000000;}
+img {float: right; border: 0px;}
+hr {width: 600px; background-color: #cccccc; border: 0px; height: 1px; color: #000000;}

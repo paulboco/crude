@@ -1,0 +1,23 @@
+h1 {
+	margin:50px 0 30px;
+	font-size:x-large;
+}
+
+h3 {
+	margin:0;
+	padding-top:20px;
+	padding-left:3px;
+	padding-bottom:0;
+	color:#000;
+	font-size:large;
+}
+
+h4 {
+	font-weight:normal;
+	font-family:monospace;
+	font-size:large;
+}
+
+h5 {
+	margin:30px 0 10px;
+}

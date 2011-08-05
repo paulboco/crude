@@ -1,0 +1,9 @@
+*[style] {outline: 5px solid red;}
+/**[id] {outline: 5px solid yellow;}*/
+/**[class] {outline: 5px solid blue;}*/
+/**[class] {outline: 5px solid blue;}*/
+
+/*a[href]:not([title]) {border: 5px dashed red;}*/
+
+
+/*table[class] {outline: 5px solid red;}*/

@@ -1,0 +1,16 @@
+#header {
+	width:100%;
+	position:relative;
+}
+
+#logo {
+	width:100%;
+	float:left;
+	margin-bottom:20px;
+	font-weight:bold;
+}
+
+#logo a {
+	font-size:x-large;
+}
+

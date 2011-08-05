@@ -1,0 +1,50 @@
+.tbox {
+	position:absolute;
+	display:none;
+	padding:14px 17px;
+	z-index:900;
+}
+
+.tinner {
+	padding:15px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+
+.tmask {
+	position:absolute;
+	display:none;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	background:#000;
+	z-index:800;
+}
+
+.tclose {
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	background:url(/assets/img/close.png) no-repeat;
+}
+
+.tclose:hover {
+	background-position:0 -30px;
+}
+
+#modal_success, #modal_notice, #modal_error {
+	background-color:#FFF;
+	color:#333;
+	padding:0;
+}
+
+.tcontent {
+	padding:10px 14px 11px;
+	border:7px solid #740;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
