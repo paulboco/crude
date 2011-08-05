@@ -13,7 +13,7 @@ NOTE! Crude is for development environments only.
 
 # Usage
 
-Depeneding on your setup, go to...
+Depending on your setup, go to...
 `http://yourhost/index.php/crude`
 or
 `http://yourhost/crude`
