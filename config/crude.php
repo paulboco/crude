@@ -11,7 +11,8 @@ return array (
 	 *
 	 * This stencil must exist in the stencils direcotyr.
 	 */
-	'default_stencil'  => 'default_orm',
+	//'default_stencil'  => 'oil',
+	'default_stencil'  => 'orm_val',
 
 	/**
 	 * crudzip_path - The path to where the zip file is created.
