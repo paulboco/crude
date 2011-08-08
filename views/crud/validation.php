@@ -9,7 +9,7 @@
 		<th>Required</th>
 	</tr>
 	<?php foreach ($COLUMNS as $key => $column): ?>
-		<?php if ( ! $column['OMISSIONS']['MODEL'] and ! $column['OMISSIONS']['FORM']): ?>
+		<?php if ( ! $column['OMISSIONS']['MODEL'] and ! $column['OMISSIONS']['FORM'] and $column['TYPE'] != 'enum'): ?>
 		<?php $checked = ($column['VALIDATION']['REQUIRED']) ? array('checked') : array(); ?>
 		<tr>
 			<th class="bold"><?php echo $key; ?></th>
