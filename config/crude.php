@@ -9,7 +9,7 @@ return array (
 	/**
 	 * default_stencil - The stencil selected in action tables.
 	 *
-	 * This stencil must exist in the stencils direcotyr.
+	 * This stencil must exist in the stencils directory.
 	 */
 	'default_stencil'  => 'default_orm',
 
