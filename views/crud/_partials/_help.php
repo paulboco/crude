@@ -20,3 +20,9 @@
 </p>
 <?php endif; ?>
 
+<?php if (\Request::active()->action == 'validation'): ?>
+<p style="font-size:small;margin:0 0 20px 75px;line-height:1.1em;">
+	Note! Columns of type 'enum' are omitted.
+</p>
+<?php endif; ?>
+
