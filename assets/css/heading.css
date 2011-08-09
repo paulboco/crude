@@ -21,3 +21,11 @@ h4 {
 h5 {
 	margin:30px 0 10px;
 }
+
+h5.help {
+	border-right:solid 1px #CCC;
+	border-top:solid 1px #CCC;
+	margin:0 0 4px 75px;
+}
+
+
