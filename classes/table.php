@@ -14,7 +14,7 @@ class Table {
 	 *
 	 * @return  array    the table list as: array('table_name' => 'table_class')
 	 */
-	public function get_listing()
+	public static function get_listing()
 	{
 		$rval = array();
 		$table_prefix = Table::get('crud.TBL_PREFIX', false);
